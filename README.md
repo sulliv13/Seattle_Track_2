@@ -3,14 +3,14 @@
 <p align="center">
   <img src="https://static1.squarespace.com/static/596d24cd4402430bb863ffad/t/5b41e62603ce641f98f2e3cd/1536741696061/?format=1500w" width="350" title="hover text">
 </p>
-
+### Welcome to HACKtheMACHINE 2018!
 When you are ready to submit your code for the judges to review, follow the instructions below:
 
 ### Submit your code via Github.com:
 1. Log onto Github.com
 2. Go to https://github.com/FATHOM5/Competition_Submissions
 3. Click the grey "Fork" button at the top right of the website
-4. The README.md file is now copied to your personal Github account
+4. This folder is now copied to your Github account
 5. Replace the contents of README.md with the code that you would like to submit
 6. Click the green "Commit changes" button at the bottom of the screen when you are finished
 7. You will be redirected back to your personal repositories
