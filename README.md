@@ -24,3 +24,10 @@ When you are ready to submit your code for the judges to review, follow the inst
 11. Click the green "Create pull request" button
 12. Add the name of your team in the comments
 13. Click the green "Create pull request" button again to send your submission to the judges
+
+
+
+
+<p align="center">
+  <img src="https://static.wixstatic.com/media/3d35e8_2d9eb95a4abe4869afafbf51d29038dc~mv2.png/v1/fill/w_288,h_60,al_c,usm_0.66_1.00_0.01/3d35e8_2d9eb95a4abe4869afafbf51d29038dc~mv2.png" width="350" title="hover text">
+</p>
