@@ -12,4 +12,5 @@ AIS data is enormous and rich (the 2016 United States dataset alone has 9.4 bill
 - Transmission Gaps: There are often jumps in the data due to spotty AIS signals, low density of receivers, or vessel operators turning off the signal to avoid detection.
 - Congestion: In crowded areas, bandwidths become congested and signals interfere with one another. 
 - Errors: Sometimes ships appear in impossible places like on land or airports or vessel operators mis-enter AIS codes. This might be a mistake or malfunction or can be indicative of malicious activity (https://www.wired.co.uk/article/black-sea-ship-hacking-russia).
+
 Determining “normal” behavior is incredibly difficult and something you can help the US Navy tackle through the following 2 challenges. It is expected that most teams will work on both challenges and judging will be a cumulative total.
