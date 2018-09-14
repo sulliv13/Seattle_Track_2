@@ -18,3 +18,7 @@ AIS data is enormous and rich (the 2016 United States dataset alone has 9.4 bill
 - Errors: Sometimes ships appear in impossible places like on land or airports or vessel operators mis-enter AIS codes. This might be a mistake or malfunction or can be indicative of malicious activity (https://www.wired.co.uk/article/black-sea-ship-hacking-russia).
 
 Determining “normal” behavior is incredibly difficult and something you can help the US Navy tackle through the following 2 challenges. It is expected that most teams will work on both challenges and judging will be a cumulative total.
+
+<p align="center">
+  <img src="https://static.wixstatic.com/media/3d35e8_2d9eb95a4abe4869afafbf51d29038dc~mv2.png/v1/fill/w_288,h_60,al_c,usm_0.66_1.00_0.01/3d35e8_2d9eb95a4abe4869afafbf51d29038dc~mv2.png" width="150" title="hover text">
+</p>
