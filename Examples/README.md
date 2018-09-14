@@ -14,9 +14,9 @@ To help get you started, this folder contains some example programs covering top
 
 ## Mathematica Notebooks
 
-**AISDataProximity.nb**
+**AISDataProximity.nb** - This Mathematica Notebook imports AIS data from Marine Cadastre, splits the CSV files into smaller chunks by line count, and further splits it by hour.
 
-**AIS_Task.nb**
+**AIS_Task.nb** - This Mathematica Notebook imports AIS data from Marine Cadastre and splits the data by day in order to reduce the file size to something more manageable. It also has functions to do basic deterministic proximity filtering and path interpolation.
 
 **AIS_mk4.nb** - This Mathematica Notebook has an implementation of a stochastic divide-and-conquer algorithm for fast proximity filtering. It splits the data by truncating the time, lattitude and longitude and then randomly tests for proximity under a threshold.
 
