@@ -18,7 +18,7 @@ To help get you started, this folder contains some example programs covering top
 
 **AIS_Task.nb**
 
-**AIS_mk4.nb**
+**AIS_mk4.nb** - This Mathematica Notebook has an implementation of a stochastic divide-and-conquer algorithm for fast proximity filtering. It splits the data by truncating the time, lattitude and longitude and then randomly tests for proximity under a threshold.
 
 **AISmk3.nb**
 
