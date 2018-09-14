@@ -8,7 +8,7 @@ To help get you started, this folder contains some example programs covering top
 
 ## Jupyter Notebooks (Python)
 
-**Zone11_EDA_demo.ipynb** - This Jupyter Notebook has general AIS data exploration, AIS data plotting, vessel type classification and anomoly detection analysis.
+**Zone11_EDA_demo.ipynb** - This Jupyter Notebook has general AIS data exploration, AIS data plotting, vessel type classification and anomoly detection analysis. If you are new to AIS data, this is a good introduction and will give you a good feel for the data and how it can be used.
 
 **AnalysisAndClassification.ipynb** - This Jupyter Notebook has data cleaning functions, proximity filtering, encounter categorization, and vessel and size prediction analysis.
 
