@@ -9,14 +9,19 @@ To help get you started, this folder contains some example programs covering top
 ## Jupyter Notebooks (Python)
 
 Zone11_EDA_demo.ipynb
+
 AnalysisAndClassification.ipynb
 
 ## Mathematica Notebooks
 
 AISDataProximity.nb
+
 AIS_Task.nb
+
 AIS_mk4.nb
+
 AISmk3.nb
+
 Simulated_AIS_Data_Plotting.nb
 
 <p align="center">
