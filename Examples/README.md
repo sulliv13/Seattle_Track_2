@@ -7,10 +7,12 @@
 To help get you started, this folder contains some example programs covering topics like vehicle classification, proximity filtering, plotting and more.
 
 ## Jupyter Notebooks (Python)
+
 Zone11_EDA_demo.ipynb
 AnalysisAndClassification.ipynb
 
 ## Mathematica Notebooks
+
 AISDataProximity.nb
 AIS_Task.nb
 AIS_mk4.nb
