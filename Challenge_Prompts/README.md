@@ -1,5 +1,9 @@
 # TRACK 2: Data Science and the Seven Seas: Collision Avoidance
 
+<p align="center">
+  <img src="https://static1.squarespace.com/static/596d24cd4402430bb863ffad/t/5b41e62603ce641f98f2e3cd/1536741696061/?format=1500w" width="350" title="hover text">
+</p>
+
 
 International regulations for preventing collisions at sea (COLREGS) codify long-established international norms for maritime navigation. Mariners are held accountable to the principles in COLREGS for safely handling their vessels. However, many situations that are frequently encountered by mariners, such as three vessels converging, are not covered by COLREGS. Similar to automotive traffic laws, the safest maneuver, in a given situation, depends on many factors.  For example, turning right may be legal in two different situations.  At an intersection on a country road, this maneuver would be safe and failing to turn would result in an angry train of drivers behind you.  If you tried that same right turn in Times Square in NYC you would find yourself trapped in a swarm of pedestrians, unable to safely make the turn.  The context-dependent nature of COLREGS makes it particularly difficult for autonomous systems, which lack human judgement. This challenge will use data from ships underway on the high seas to develop algorithms to assist the Navy with preventing collisions for human-operated and autonomous vessels. 
 
