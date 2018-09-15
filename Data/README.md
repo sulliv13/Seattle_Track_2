@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/FATHOM5/Seattle_Track_2/blob/master/Images/AlgorithmDiagram.png" width="90vw" title="hover text">
+  <img src="https://github.com/FATHOM5/Seattle_Track_2/blob/master/Images/AlgorithmDiagram.png" width="2000" title="hover text">
 </p>
 
 
