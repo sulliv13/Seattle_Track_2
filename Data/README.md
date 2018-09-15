@@ -4,15 +4,13 @@
   <img src="https://static1.squarespace.com/static/596d24cd4402430bb863ffad/t/5b41e62603ce641f98f2e3cd/1536741696061/?format=1500w" width="350" title="hover text">
 </p>
 
-<html>
-<head>
-<title>Test</title>
-<meta charset="utf-8"/>
-</head>
-<body><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\&quot; version=\&quot;9.1.3\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;device\&quot;&gt;&lt;diagram id=\&quot;0afc8198-cf78-4a60-e759-ad6819885efb\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
-</body>
-</html>
+
+
+<p align="center">
+  <img src="https://github.com/FATHOM5/Seattle_Track_2/blob/master/Images/AlgorithmDiagram.png" width="90vw" title="hover text">
+</p>
+
+
 <p align="center">
   <img src="https://static.wixstatic.com/media/3d35e8_2d9eb95a4abe4869afafbf51d29038dc~mv2.png/v1/fill/w_288,h_60,al_c,usm_0.66_1.00_0.01/3d35e8_2d9eb95a4abe4869afafbf51d29038dc~mv2.png" width="150" title="hover text">
 </p>
