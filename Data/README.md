@@ -5,10 +5,13 @@
 </p>
 
 
+## Example Data Generation Algorithm
 
 <p align="center">
   <img src="https://github.com/FATHOM5/Seattle_Track_2/blob/master/Images/AlgorithmDiagram.png" width="2000" title="hover text">
 </p>
+
+### Computationally Efficient Proximity Filtering for AIS Data
 
 
 <p align="center">
