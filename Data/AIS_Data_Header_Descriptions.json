@@ -1,0 +1,101 @@
+{
+	"ID":{
+		"Description":"This is a unique identifying number for the pair of AIS transmissions described by the following data."
+	},
+	"MMSI_1":{
+		"Description":"This is the Maritime Mobile Service Identity of the first vessel."
+	},
+	"BaseDateTime_1":{
+		"Description":"This is the time of the first vessel's AIS transmission."
+	},
+	"LAT_1":{
+		"Description":"This is the latitude of the first vessel."
+	},
+	"LON_1":{
+		"Description":"This is the longitude of the first vessel."
+	},
+	"SOG_1":{
+		"Description":"This is the speed over ground for the first vessel."
+	},
+	"COG_1":{
+		"Description":"This is the course over ground for the first vessel."
+	},
+	"Heading_1":{
+		"Description":"This is the heading of the first vessel."
+	},
+	"VesselName_1":{
+		"Description":"This is the name of the first vessel."
+	},
+	"IMO_1":{
+		"Description":"This is the IMO number of the first vessel."
+	},
+	"CallSign_1":{
+		"Description":"This is the call sign of the first vessel."
+	},
+	"VesselType_1":{
+		"Description":"This is the vessel type for the first vessel."
+	},
+	"Status_1":{
+		"Description":"This is the status of the first vessel."
+	},
+	"Length_1":{
+		"Description":"This is the length of the first vessel."
+	},
+	"Width_1":{
+		"Description":"This is the width of the first vessel."
+	},
+	"Draft_1":{
+		"Description":"This is the draft of the first vessel."
+	},
+	"Cargo_1":{
+		"Description":"This is the cargo code of the first vessel."
+	},
+	"MMSI_2":{
+		"Description":"This is the Maritime Mobile Service Identity of the second vessel."
+	},
+	"BaseDateTime_2":{
+		"Description":"This is the time of the second vessel's AIS transmission."
+	},
+	"LAT_2":{
+		"Description":"This is the latitude of the second vessel."
+	},
+	"LON_2":{
+		"Description":"This is the longitude of the second vessel."
+	},
+	"SOG_2":{
+		"Description":"This is the speed over ground for the second vessel."
+	},
+	"COG_2":{
+		"Description":"This is the course over ground for the second vessel."
+	},
+	"Heading_2":{
+		"Description":"This is the heading of second vessel."
+	},
+	"VesselName_2":{
+		"Description":"This is the name of the second vessel."
+	},
+	"IMO_2":{
+		"Description":"This is the second vessel's IMO number."
+	},
+	"CallSign_2":{
+		"Description":"This is the second vessel's call sign."
+	},
+	"VesselType_2":{
+		"Description":"This is the second vessel's vessel type."
+	},
+	"Status_2":{
+		"Description":"This is the second vessel's status."
+	},
+	"Length_2":{
+		"Description":"This is the second vessel's length."
+	},
+	"Width_2":{
+		"Description":"This is the second vessel's width."
+	},
+	"Draft_2":{
+		"Description":"This is the second vessel's draft."
+	},
+	"Cargo_2":{
+		"Description":"This is the second vessel's cargo code."
+	}
+}
