@@ -128,7 +128,7 @@
         "Description": "This is the second vessel's draft."
     },
     {
-        "Name": "Cargo_y\r\n",
+        "Name": "Cargo_y",
         "Description": "This is the second vessel's cargo code."
     }
 ]
