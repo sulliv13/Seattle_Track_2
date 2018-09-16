@@ -131,6 +131,10 @@
         "Name": "Cargo_y",
         "Description": "This is the second vessel's cargo code."
     }
+                {
+        "Name": "DateCode",
+        "Description": "This is vessel's timestamp rounded to the nearest 10 minutes."
+    }
     {
         "Name": "Box1_Lat",
         "Description": "This is vessel's first bounding box's latitude."
