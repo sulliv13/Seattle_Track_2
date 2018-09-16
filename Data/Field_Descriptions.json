@@ -1,0 +1,234 @@
+[
+    {
+        "Name": "ID",
+        "Description": "This is a unique identifying number for the pair of AIS transmissions described by the following data."
+    },
+    {
+        "Name": "MMSI_x",
+        "Description": "This is the Maritime Mobile Service Identity of the first vessel."
+    },
+    {
+        "Name": "BaseDateTime_x",
+        "Description": "This is the time of the first vessel's AIS transmission."
+    },
+    {
+        "Name": "LAT_x",
+        "Description": "This is the latitude of the first vessel."
+    },
+    {
+        "Name": "LON_x",
+        "Description": "This is the longitude of the first vessel."
+    },
+    {
+        "Name": "SOG_x",
+        "Description": "This is the speed over ground for the first vessel."
+    },
+    {
+        "Name": "COG_x",
+        "Description": "This is the course over ground for the first vessel."
+    },
+    {
+        "Name": "Heading_x",
+        "Description": "This is the heading of the first vessel."
+    },
+    {
+        "Name": "VesselName_x",
+        "Description": "This is the name of the first vessel."
+    },
+    {
+        "Name": "IMO_x",
+        "Description": "This is the IMO number of the first vessel."
+    },
+    {
+        "Name": "CallSign_x",
+        "Description": "This is the call sign of the first vessel."
+    },
+    {
+        "Name": "VesselType_x",
+        "Description": "This is the vessel type for the first vessel."
+    },
+    {
+        "Name": "Status_x",
+        "Description": "This is the status of the first vessel."
+    },
+    {
+        "Name": "Length_x",
+        "Description": "This is the length of the first vessel."
+    },
+    {
+        "Name": "Width_x",
+        "Description": "This is the width of the first vessel."
+    },
+    {
+        "Name": "Draft_x",
+        "Description": "This is the draft of the first vessel."
+    },
+    {
+        "Name": "Cargo_x",
+        "Description": "This is the cargo code of the first vessel."
+    },
+    {
+        "Name": "MMSI_y",
+        "Description": "This is the Maritime Mobile Service Identity of the second vessel."
+    },
+    {
+        "Name": "BaseDateTime_y",
+        "Description": "This is the time of the second vessel's AIS transmission."
+    },
+    {
+        "Name": "LAT_y",
+        "Description": "This is the latitude of the second vessel."
+    },
+    {
+        "Name": "LON_y",
+        "Description": "This is the longitude of the second vessel."
+    },
+    {
+        "Name": "SOG_y",
+        "Description": "This is the speed over ground for the second vessel."
+    },
+    {
+        "Name": "COG_y",
+        "Description": "This is the course over ground for the second vessel."
+    },
+    {
+        "Name": "Heading_y",
+        "Description": "This is the heading of second vessel."
+    },
+    {
+        "Name": "VesselName_y",
+        "Description": "This is the name of the second vessel."
+    },
+    {
+        "Name": "IMO_y",
+        "Description": "This is the second vessel's IMO number."
+    },
+    {
+        "Name": "CallSign_y",
+        "Description": "This is the second vessel's call sign."
+    },
+    {
+        "Name": "VesselType_y",
+        "Description": "This is the second vessel's vessel type."
+    },
+    {
+        "Name": "Status_y",
+        "Description": "This is the second vessel's status."
+    },
+    {
+        "Name": "Length_y",
+        "Description": "This is the second vessel's length."
+    },
+    {
+        "Name": "Width_y",
+        "Description": "This is the second vessel's width."
+    },
+    {
+        "Name": "Draft_y",
+        "Description": "This is the second vessel's draft."
+    },
+    {
+        "Name": "Cargo_y",
+        "Description": "This is the second vessel's cargo code."
+    },
+    {
+        "Name": "DateCode",
+        "Description": "This is vessel's UNIX timestamp rounded to the nearest 10 minutes, for use in discretizing the AIS data in intermediate computations."
+    },
+    {
+        "Name": "Box1_Lat",
+        "Description": "This is vessel's first bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "Box1_Long",
+        "Description": "This is vessel's first bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "Box2_Lat",
+        "Description": "This is vessel's second bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "Box2_Long",
+        "Description": "This is vessel's second bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "Box3_Lat",
+        "Description": "This is vessel's third bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+        {
+        "Name": "Box3_Long",
+        "Description": "This is vessel's third bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "Box4_Lat",
+        "Description": "This is vessel's fourth bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "Box4_Long",
+        "Description": "This is vessel's fourth bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    },
+    {
+        "Name": "MMSI",
+        "Description": "This is the Maritime Mobile Service Identity of the vessel in the AIS report."
+    },
+    {
+        "Name": "BaseDateTime",
+        "Description": "This is the time of the vessel's AIS transmission."
+    },
+    {
+        "Name": "LAT",
+        "Description": "This is the latitude of the vessel."
+    },
+    {
+        "Name": "LON",
+        "Description": "This is the longitude of the vessel."
+    },
+    {
+        "Name": "SOG",
+        "Description": "This is the speed over ground for the vessel."
+    },
+    {
+        "Name": "COG",
+        "Description": "This is the course over ground for the vessel."
+    },
+    {
+        "Name": "Heading",
+        "Description": "This is the heading of the vessel."
+    },
+    {
+        "Name": "VesselName",
+        "Description": "This is the name of the vessel."
+    },
+    {
+        "Name": "IMO",
+        "Description": "This is the International Maritime Organization number of the vessel."
+    },
+    {
+        "Name": "CallSign",
+        "Description": "This is the call sign of the vessel."
+    },
+    {
+        "Name": "VesselType",
+        "Description": "This is the vessel type."
+    },
+    {
+        "Name": "Status",
+        "Description": "This is an optional status of the vessel."
+    },
+    {
+        "Name": "Length",
+        "Description": "This is the length of the vessel."
+    },
+    {
+        "Name": "Width",
+        "Description": "This is the width of the vessel."
+    },
+    {
+        "Name": "Draft",
+        "Description": "This is the draft of the vessel."
+    },
+    {
+        "Name": "Cargo",
+        "Description": "This is the cargo code of the vessel."
+    }
+]
