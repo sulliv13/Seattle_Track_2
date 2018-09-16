@@ -6,6 +6,7 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
+	"log"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -78,33 +79,60 @@ func main() {
 	scanner := bufio.NewScanner(f)
 	firstLineRead := false
 	var h csvAIS.Headers
-	var ti int // index of the time field in the csv headers
+	var ti []int // index of the time fields in the csv headers
+	formatTimes := make(map[int]string)
+	count := 0
 	for scanner.Scan() {
-		if firstLineRead { // For all lines after the first line
+		count++
+		if count%500000 == 0 {
+			log.Println("Parsing line:", count)
+		}
+		if !firstLineRead {
+			firstLine = scanner.Text()
+			if !csvAIS.Debug {
+				f2.WriteString(fmt.Sprintln(firstLine)) // write the headers
+			}
+			h = csvAIS.NewHeaders(firstLine)
+			// d(func() { fmt.Println(h) })
+			for i, header := range h {
+				if reField.MatchString(header) {
+					ti = append(ti, i) //find indeces for the time fields
+					fmt.Println("Parsing", header)
+				}
+			}
+		}
+		if firstLineRead {
 			line := scanner.Text()
 			fields := strings.Split(line, ",")
-			sampleTime := fields[ti]
-			t, err := time.Parse("2006-01-02T15:04:05", sampleTime)
-			if err != nil {
-				panic(err)
+			for _, tIndex := range ti {
+				sampleTime := fields[tIndex]
+				t, err := time.Parse("2006-01-02T15:04:05", sampleTime)
+				if err != nil {
+					panic(err)
+				}
+				tString := t.Format("01/02/2006 03:04:05 MST")
+				formatTimes[tIndex] = tString
 			}
-			tString := t.Format("01/02/2006 03:04:05 MST")
 
-			// write the new field
+			// write the new fields
 			var transformedLine string
 			var lastIndex = len(fields) - 1
 			for j, field := range fields {
-				if j != ti {
+				if !inSlice(j, ti) {
 					transformedLine += field
-				} else { // it is the header field and needs the transform
-					transformedLine += tString
+				} else { // it is the time field and needs the transform
+					if v, ok := formatTimes[j]; ok {
+						transformedLine += v
+					} else {
+						panic(fmt.Errorf("key: %d not in map formatTimes: %v", j, formatTimes))
+					}
 				}
 				if j != lastIndex {
 					transformedLine += ","
-				} else { //only debug if this is the last field
+				} else {
 					transformedLine += fmt.Sprintln()
-					d(func() {
-						fmt.Printf("sampleTime: %s\t\tformatTime:%s\n", sampleTime, tString)
+					d(func() { //only debug if this is the last field
+						// fmt.Printf("sampleTime: %s\t\tformatTime:%s\n", sampleTime, tString)
 						fmt.Print(transformedLine)
 					})
 				}
@@ -112,24 +140,21 @@ func main() {
 			if !csvAIS.Debug {
 				f2.WriteString(transformedLine) // write data to the new file
 			}
-		} else {
-			firstLine = scanner.Text()
-			if !csvAIS.Debug {
-				f2.WriteString(firstLine) // write the headers
-			}
-			firstLineRead = true
-			h = csvAIS.NewHeaders(firstLine)
-			d(func() { fmt.Println(h) })
-			for i, header := range h {
-				if reField.MatchString(header) {
-					ti = i //find the index for the time field
-					fmt.Println("Parsing", header)
-				}
-			}
 		}
-
+		if !firstLineRead {
+			firstLineRead = true
+		}
 	}
 	if err := scanner.Err(); err != nil {
 		panic(err)
 	}
+}
+
+func inSlice(j int, indexList []int) bool {
+	for _, i := range indexList {
+		if j == i {
+			return true
+		}
+	}
+	return false
 }

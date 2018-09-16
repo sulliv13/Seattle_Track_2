@@ -65,6 +65,12 @@ func main() {
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
 		firstLine = scanner.Text()
+		//Exit if the first row begins with a number
+		r := rune(firstLine[0])
+		if unicode.IsDigit(r) {
+			fmt.Println("The file begins with a number and does not appear to have headers")
+			os.Exit(0)
+		}
 		break
 	}
 	if err := scanner.Err(); err != nil {
