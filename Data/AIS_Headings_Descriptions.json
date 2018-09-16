@@ -131,4 +131,40 @@
         "Name": "Cargo_y",
         "Description": "This is the second vessel's cargo code."
     }
+                {
+        "Name": "DateCode",
+        "Description": "This is vessel's UNIX timestamp rounded to the nearest 10 minutes, for use in discretizing the AIS data in intermediate computations."
+    }
+    {
+        "Name": "Box1_Lat",
+        "Description": "This is vessel's first bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+        {
+        "Name": "Box1_Long",
+        "Description": "This is vessel's first bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+    {
+        "Name": "Box2_Lat",
+        "Description": "This is vessel's second bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+        {
+        "Name": "Box2_Long",
+        "Description": "This is vessel's second bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+        {
+        "Name": "Box3_Lat",
+        "Description": "This is vessel's third bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+        {
+        "Name": "Box3_Long",
+        "Description": "This is vessel's third bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+        {
+        "Name": "Box4_Lat",
+        "Description": "This is vessel's fourth bounding box's latitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
+        {
+        "Name": "Box4_Long",
+        "Description": "This is vessel's fourth bounding box's longitude. Sliding-window 16000yd x 16000yd bounding boxes are used to segment the dataset and are defined by their northwestern corner."
+    }
 ]
