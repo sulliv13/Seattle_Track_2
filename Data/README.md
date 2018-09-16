@@ -8,7 +8,7 @@
 ## Example Data Generation Algorithm
 
 <p align="center">
-  <img src="https://github.com/FATHOM5/Seattle_Track_2/blob/master/Images/AlgorithmDiagram.png" width="2000" title="hover text">
+  <img src="https://raw.githubusercontent.com/FATHOM5/Seattle_Track_2/master/Images/AISAlgorithm.png" width="2000" title="hover text">
 </p>
 
 ### Computationally Efficient Proximity Filtering for AIS Data
