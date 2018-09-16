@@ -131,4 +131,36 @@
         "Name": "Cargo_y",
         "Description": "This is the second vessel's cargo code."
     }
+    {
+        "Name": "Box1_Lat",
+        "Description": "This is vessel's first bounding box's latitude."
+    }
+        {
+        "Name": "Box1_Long",
+        "Description": "This is vessel's first bounding box's longitude."
+    }
+    {
+        "Name": "Box2_Lat",
+        "Description": "This is vessel's second bounding box's latitude."
+    }
+        {
+        "Name": "Box2_Long",
+        "Description": "This is vessel's second bounding box's longitude."
+    }
+        {
+        "Name": "Box3_Lat",
+        "Description": "This is vessel's third bounding box's latitude."
+    }
+        {
+        "Name": "Box3_Long",
+        "Description": "This is vessel's third bounding box's longitude."
+    }
+        {
+        "Name": "Box4_Lat",
+        "Description": "This is vessel's fourth bounding box's latitude."
+    }
+        {
+        "Name": "Box4_Long",
+        "Description": "This is vessel's fourth bounding box's longitude."
+    }
 ]
