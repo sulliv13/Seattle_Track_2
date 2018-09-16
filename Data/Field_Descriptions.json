@@ -9,7 +9,7 @@
     },
     {
         "Name": "BaseDateTime_x",
-        "Description": "This is the time of the first vessel's AIS transmission."
+        "Description": "Transmission time of the first vessel's AIS signal. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
     },
     {
         "Name": "LAT_x",
@@ -73,7 +73,7 @@
     },
     {
         "Name": "BaseDateTime_y",
-        "Description": "This is the time of the second vessel's AIS transmission."
+        "Description": "This is the time of the second vessel's AIS transmission. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
     },
     {
         "Name": "LAT_y",
@@ -173,7 +173,7 @@
     },
     {
         "Name": "BaseDateTime",
-        "Description": "This is the time of the vessel's AIS transmission."
+        "Description": "This is the time of the vessel's AIS transmission. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
     },
     {
         "Name": "LAT",

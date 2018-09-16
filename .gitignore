@@ -1,2 +1,4 @@
 *LA_AIS_Data_Dec_17.csv
-bin/*
+*/Utilities/bin/format_time
+*/Utilities/bin/subset
+*/Utilities/bin/headings
