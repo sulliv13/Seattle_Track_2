@@ -6,6 +6,7 @@ import (
 	"bufio"
 	"bytes"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
@@ -20,9 +21,8 @@ const debug = false // logs debug statements to stdout
 const dataRoot = `/Users/zac/go/src/gopl.io/mine/ais_headings/Seattle_Track_2/Data`
 const pad = ' ' //padding character for prety print
 
-// var csvFilename = `AIS data Jan 2017 1_15 Caribbean filtered by proximity.csv`
+var csvFilename = "AIS data Jan 2017 1_15 Caribbean filtered by proximity.csv"
 
-var csvFilename = `AIS data Jan 2017 16_31 Caribbean filtered by proximity.csv`
 var jsonFilename = `Field_Descriptions.json`
 
 type csvField struct {
@@ -33,9 +33,26 @@ type csvField struct {
 // Headers are the column names of a csv data file
 type Headers []string
 
+// Flags for filename to check headings.
+// The order of initialization is undefined, so they must be set up
+// with an init function.
+var filename string
+
+func init() {
+	const (
+		defaultFile = "AIS data Jan 2017 1_15 Caribbean filtered by proximity.csv"
+		usage       = "Filename to check for headers"
+	)
+	flag.StringVar(&filename, "file", defaultFile, usage)
+	flag.StringVar(&filename, "f", defaultFile, usage+" (shorthand)")
+}
+
 func main() {
+	//Parse for flags
+	flag.Parse()
+
 	// Open the test file
-	path := filepath.Join(dataRoot, csvFilename)
+	path := filepath.Join(dataRoot, filename)
 	f, err := os.Open(path)
 	if err != nil {
 		panic(err)
