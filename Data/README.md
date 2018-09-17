@@ -4,8 +4,23 @@
   <img src="https://static1.squarespace.com/static/596d24cd4402430bb863ffad/t/5b41e62603ce641f98f2e3cd/1536741696061/?format=1500w" width="350" title="hover text">
 </p>
 
+## Interested in Getting the Full Datasets?
 
-## Example Data Generation Algorithm
+**Data Science and Seven Seas** is focused on two areas covered in three UTM Zones.  The first is the west coast of the United States coverd by UTM Zone 11.  The second area is the Caribbean which is encompassed by UTM Zones 17 and 18.  This folder contains a utility `get_data.sh` that will download three zip files from https://marinecadastre.gov/ais/ for December 2017 in the three UTM zones. Usage as follows (note that `user$ ` indicates the terminal prompt not a command to enter). 
+
+ 1. After cloning the repository onto your own machine...
+ 2. Enter the data folder.
+ `user$ cd Data`
+ 3. Change the mode of the script so that it is executable.
+ `user$ chmod +x get_data.sh`
+ 4. Run the script.
+ `user$ ./get_data.sh`
+
+The script uses `wget` to download the files, but checks to see if the files are already in your `Data` folder before downloading them. 
+
+From these datasets one of the first challenges is creating an efficient algorithm to find two-ship proximity situations that may represent a COLREGS interaction.  An example algorithm below is one way to do this parsing, but could be much more accurate.
+
+## Example Algorithm for Finding Two-Ship Interactions
 
 <p align="center">
   <img src="https://github.com/FATHOM5/Seattle_Track_2/blob/master/Images/AISAlgorithm.png" width="2000" title="hover text">
