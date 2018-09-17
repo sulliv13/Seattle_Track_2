@@ -23,7 +23,7 @@ const pad = ' ' //padding character for prety print
 
 var csvFilename = "AIS data Jan 2017 1_15 Caribbean filtered by proximity.csv"
 
-var jsonFilename = `Field_Descriptions.json`
+var jsonFilename = `AIS_field_descriptions.json`
 
 type csvField struct {
 	Name        string
