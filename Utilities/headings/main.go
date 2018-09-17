@@ -21,8 +21,6 @@ const debug = false // logs debug statements to stdout
 const dataRoot = `/Users/zac/go/src/gopl.io/mine/ais_headings/Seattle_Track_2/Data`
 const pad = ' ' //padding character for prety print
 
-var csvFilename = "AIS data Jan 2017 1_15 Caribbean filtered by proximity.csv"
-
 var jsonFilename = `AIS_field_descriptions.json`
 
 type csvField struct {
@@ -40,7 +38,7 @@ var filename string
 
 func init() {
 	const (
-		defaultFile = "AIS data Jan 2017 1_15 Caribbean filtered by proximity.csv"
+		defaultFile = "AIS_LA_SD_Jan_1_to_15_2016_Filtered_by_Proximity.csv"
 		usage       = "Filename to check for headers"
 	)
 	flag.StringVar(&filename, "file", defaultFile, usage)
@@ -124,7 +122,7 @@ func NewHeaders(data string) Headers {
 		myLen := 0
 		var tmp []rune
 		for _, r := range s {
-			if unicode.IsLetter(r) || r == '_' {
+			if unicode.IsLetter(r) || r == '_' || unicode.IsDigit(r) {
 				tmp = append(tmp, r)
 				myLen++
 			}

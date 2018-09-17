@@ -4,131 +4,139 @@
         "Description": "This is a unique identifying number for the pair of AIS transmissions described by the following data."
     },
     {
-        "Name": "MMSI_x",
+        "Name": "MMSI_1",
         "Description": "This is the Maritime Mobile Service Identity of the first vessel."
     },
     {
-        "Name": "BaseDateTime_x",
+        "Name": "BaseDateTime_1",
+        "Description": "Transmission time of the first vessel's AIS signal. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
+    },    
+    {
+        "Name": "Timestamp_1",
         "Description": "Transmission time of the first vessel's AIS signal. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
     },
     {
-        "Name": "LAT_x",
+        "Name": "Timestamp_2",
+        "Description": "Transmission time of the second vessel's AIS signal. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
+    },
+    {
+        "Name": "LAT_1",
         "Description": "This is the latitude of the first vessel."
     },
     {
-        "Name": "LON_x",
+        "Name": "LON_1",
         "Description": "This is the longitude of the first vessel."
     },
     {
-        "Name": "SOG_x",
+        "Name": "SOG_1",
         "Description": "This is the speed over ground for the first vessel."
     },
     {
-        "Name": "COG_x",
+        "Name": "COG_1",
         "Description": "This is the course over ground for the first vessel."
     },
     {
-        "Name": "Heading_x",
+        "Name": "Heading_1",
         "Description": "This is the heading of the first vessel."
     },
     {
-        "Name": "VesselName_x",
+        "Name": "VesselName_1",
         "Description": "This is the name of the first vessel."
     },
     {
-        "Name": "IMO_x",
+        "Name": "IMO_1",
         "Description": "This is the IMO number of the first vessel."
     },
     {
-        "Name": "CallSign_x",
+        "Name": "CallSign_1",
         "Description": "This is the call sign of the first vessel."
     },
     {
-        "Name": "VesselType_x",
+        "Name": "VesselType_1",
         "Description": "This is the vessel type for the first vessel."
     },
     {
-        "Name": "Status_x",
+        "Name": "Status_1",
         "Description": "This is the status of the first vessel."
     },
     {
-        "Name": "Length_x",
+        "Name": "Length_1",
         "Description": "This is the length of the first vessel."
     },
     {
-        "Name": "Width_x",
+        "Name": "Width_1",
         "Description": "This is the width of the first vessel."
     },
     {
-        "Name": "Draft_x",
+        "Name": "Draft_1",
         "Description": "This is the draft of the first vessel."
     },
     {
-        "Name": "Cargo_x",
+        "Name": "Cargo_1",
         "Description": "This is the cargo code of the first vessel."
     },
     {
-        "Name": "MMSI_y",
+        "Name": "MMSI_2",
         "Description": "This is the Maritime Mobile Service Identity of the second vessel."
     },
     {
-        "Name": "BaseDateTime_y",
+        "Name": "BaseDateTime_2",
         "Description": "This is the time of the second vessel's AIS transmission. Should be in the form MM/DD/YYYY HH:MM:SS UTC."
     },
     {
-        "Name": "LAT_y",
+        "Name": "LAT_2",
         "Description": "This is the latitude of the second vessel."
     },
     {
-        "Name": "LON_y",
+        "Name": "LON_2",
         "Description": "This is the longitude of the second vessel."
     },
     {
-        "Name": "SOG_y",
+        "Name": "SOG_2",
         "Description": "This is the speed over ground for the second vessel."
     },
     {
-        "Name": "COG_y",
+        "Name": "COG_2",
         "Description": "This is the course over ground for the second vessel."
     },
     {
-        "Name": "Heading_y",
+        "Name": "Heading_2",
         "Description": "This is the heading of second vessel."
     },
     {
-        "Name": "VesselName_y",
+        "Name": "VesselName_2",
         "Description": "This is the name of the second vessel."
     },
     {
-        "Name": "IMO_y",
+        "Name": "IMO_2",
         "Description": "This is the second vessel's IMO number."
     },
     {
-        "Name": "CallSign_y",
+        "Name": "CallSign_2",
         "Description": "This is the second vessel's call sign."
     },
     {
-        "Name": "VesselType_y",
+        "Name": "VesselType_2",
         "Description": "This is the second vessel's vessel type."
     },
     {
-        "Name": "Status_y",
+        "Name": "Status_2",
         "Description": "This is the second vessel's status."
     },
     {
-        "Name": "Length_y",
+        "Name": "Length_2",
         "Description": "This is the second vessel's length."
     },
     {
-        "Name": "Width_y",
+        "Name": "Width_2",
         "Description": "This is the second vessel's width."
     },
     {
-        "Name": "Draft_y",
+        "Name": "Draft_2",
         "Description": "This is the second vessel's draft."
     },
     {
-        "Name": "Cargo_y",
+        "Name": "Cargo_2",
         "Description": "This is the second vessel's cargo code."
     },
     {
